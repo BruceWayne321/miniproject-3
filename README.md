@@ -27,9 +27,20 @@ So the workflow function of macOsoft lets the user select all the apps in their 
 ### Step 1
 Clone the repo and make sure you have python3 installed on your system
 
+To clone run the following command in your terminal
+```console
+bruce@wayne:~$ git clone https://github.com/BruceWayne321/miniproject-3
+```
+To check if you have python3
+```console
+bruce@wayne:~$ python --version
+```
+If instead of seeing version number you get an error, you have to install python
+
+Note: Python 3.10 or above is recommended
 
 ### Step 2
-Run the following command in the macOsoft directory
+Run the following command in your terminal of the macOsoft directory
 ```console
 bruce@wayne:~$ pip install -r requirements.txt
 ```
@@ -37,7 +48,7 @@ This installs all the required packages for the program
 
 
 ### Step 3
-To run the program, run the following command
+To run the program, run the following command in your terminal
 ```console
 bruce@wayne:~$ python macOsoft.py
 ```

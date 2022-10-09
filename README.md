@@ -24,23 +24,26 @@ So the workflow function of macOsoft lets the user select all the apps in their 
 
 ## Getting this program on your system
 
-### step 1
+### Step 1
 Clone the repo and make sure you have python3 installed on your system
 
-### step 2
+
+### Step 2
 Run the following command in the macOsoft directory
 ```console
 bruce@wayne:~$ pip install -r requirements.txt
 ```
 This installs all the required packages for the program
-### step 3
+
+
+### Step 3
 To run the program, run the following command
 ```console
 bruce@wayne:~$ python macOsoft.py
 ```
 
 ----------------------------------
-## to edit/modify the program
+## To edit/modify the program
 To modify the whole macOsoft program make changes to the macOsoft.py file 
 
 To experiment with the workflow app edit the workflow.py and once satisfies with the changes copy the code and paste it inside the workflow function in macOsoft.py file
